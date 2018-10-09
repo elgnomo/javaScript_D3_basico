@@ -1,0 +1,12 @@
+body {
+	background: gray;
+}
+
+.barra {
+	width: 25px;
+	height: 100px;
+	margin-right: 2px;
+	background-color: green;
+	display: inline-block;
+	color: white;
+}
