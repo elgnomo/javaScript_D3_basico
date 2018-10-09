@@ -1,0 +1,25 @@
+svg {
+	border: 1px solid #aaa;
+}
+
+rect {
+	fill: RoyalBlue
+}
+
+text {
+	font-family: helvetica;
+	font-size: 10px;
+	text-anchor: middle;
+}
+
+/* svg {
+	border: 1px solid #aaa;
+	width: 1000px;
+	height: 300px;
+}
+
+circle {
+	fill: blue;
+	stroke: orange;
+	stroke-width: 5px;
+} */
