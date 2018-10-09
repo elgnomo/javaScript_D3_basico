@@ -1,3 +1,5 @@
+"use strict"
+
 function seleccionar() {
     d3.selectAll('div')
         .style('background-color', 'green')
