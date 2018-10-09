@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Dibujando con datos en D3</title>
+    <title>Entendiendo SVG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Practicas D3 Basico">
@@ -14,10 +14,13 @@
     <script src="js/app.js"></script>
 </head>
 
-<body>
-    <button onclick="graficar()">Generar Graficar</button>
-    <div class="miGrafica"></div>
-
+<body onload="graficar()">
+    <svg width="300" height="300">
+        <rect x="0" y="0" width="50" height="50"></rect>
+        <circle cx="150" cy="80" r="10"></circle>
+        <line x1="10" y1="150" x2="290" y2="150"></line>
+        <text x="60" y="290">La vida es fácil con d3.js</text>
+    </svg>
 </body>
 
 </html>
